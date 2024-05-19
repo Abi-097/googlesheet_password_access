@@ -49,8 +49,6 @@ const Main = () => {
 
   const fetchSheetData = async () => {
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${GOOGLE_API_KEY}`;
-    //   https://docs.google.com/spreadsheets/d/1ECTA4bg0jPxNYNKahAyHk037vYmtkfBqx7saEvd1ciU/edit?usp=sharing
-    //https://drive.google.com/file/d/1o4_0DdfueC6asm1w1_KrrFX-E0cvCGSw/view?usp=sharing
 
     try {
       const response = await axios.get(url);
