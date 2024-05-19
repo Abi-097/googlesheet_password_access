@@ -1,1 +1,1 @@
-# googlesheet_password_access
+Application with checking the credentials from google sheet and login inside the page.
